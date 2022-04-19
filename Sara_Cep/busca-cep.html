@@ -1,0 +1,56 @@
+<html>
+    <head>
+    <title>ViaCEP Webservice</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/exer_cep.css">
+
+    </head>
+    <header class="sobrecab">
+        <img src="imagem/logo_cep.jpeg" alt="logo">
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="https://www.google.com.br/maps">Maps</a></li>
+                    <li><a href="https://buscacepinter.correios.com.br/app/endereco/index.php">Não sei meu CEP</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <body>
+    <!-- Inicio do formulario -->
+      <form method="get" action=".">
+        <fieldset>
+            <legend>Busca Endereço</legend>
+        <label>Cep:
+        <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" /></label><br />
+        <label>Rua:
+        <input name="rua" type="text" id="rua" size="60" /></label><br />
+        <label>Bairro:
+        <input name="bairro" type="text" id="bairro" size="40" /></label><br />
+        <label>Cidade:
+        <input name="cidade" type="text" id="cidade" size="40" /></label><br />
+        <label>Estado:
+        <input name="uf" type="text" id="uf" size="2" /></label><br />
+        <label>IBGE:
+        <input name="ibge" type="text" id="ibge" size="8" /></label><br />
+
+       
+    </fieldset>
+
+    
+      </form>
+	  
+     
+
+      <!-- Adicionando JQuery -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+            <script src="js/busca.js"></script>
+            
+      
+	</body>
+</html>    
